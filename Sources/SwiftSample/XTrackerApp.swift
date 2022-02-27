@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+struct WindowGroup<Content> where Content : View
+
 @main
 struct XTrackerApp: App {
     var body: some Scene {
