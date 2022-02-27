@@ -5,10 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftSample",
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
-    ],
     platforms: [
        .macOS(.v10_15), .iOS(.v14),
     ],
