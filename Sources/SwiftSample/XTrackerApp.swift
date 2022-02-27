@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct WindowGroup<Content> where Content : View
+struct WindowGroup<Content> where Content : View {}
 
 @main
 struct XTrackerApp: App {
